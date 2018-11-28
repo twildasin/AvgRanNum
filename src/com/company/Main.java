@@ -6,12 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        for(int p = 0; p < 5; p++) {
-
-
-            int runNum = ((p % 5 == 5) ? (1) : 0));
-
-            int runNum = 1;
+            int runNum = 10000;
             int num = 0;
             int reps = 0;
             int avg[] = new int[runNum];
@@ -73,7 +68,7 @@ public class Main {
         }
 
 
-    }
+
 
 
 }
