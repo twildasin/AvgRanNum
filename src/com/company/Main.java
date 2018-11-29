@@ -13,12 +13,7 @@ public class Main {
             int avg[] = new int[runNum];
             boolean val[] = new boolean[100];
             boolean con = true;
-
-
-            //Sets every element in the val array (boolean array) = false
-            for (int i = 0; i < val.length; i++) {
-                val[i] = false;
-            }
+        
 
             //Instantiates a new Bull object called list with parameter of the boolean array
             Bull list = new Bull(val);
