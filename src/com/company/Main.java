@@ -13,7 +13,7 @@ public class Main {
             int avg[] = new int[runNum];
             boolean val[] = new boolean[100];
             boolean con = true;
-        
+
 
             //Instantiates a new Bull object called list with parameter of the boolean array
             Bull list = new Bull(val);
@@ -26,8 +26,6 @@ public class Main {
                     //Generates random number from 0-99 inclusive. Even though we are trying to find 1-100 inclusive, since we keep the same range for the entire code, it is the same probability.
                     num = (int) ((Math.random() * 100));
 
-                    //System.out.println(" " + num + " ");
-
                     //Sets the position in the boolean array equal to true. (position in the array equals the random number generated (0-99))
                     val[num] = true;
 
@@ -35,13 +33,10 @@ public class Main {
                     if (list.numTrue() == 100) {
                         con = false;
                     }
-
                     reps++;
-
                 }
+                
                 avg[i] = reps;
-                //System.out.println("Number of reps for \"" + time + "\" time: " + avg[i]);
-
 
                 //Resets the boolean array and the number of reps
                 for (int k = 0; k < val.length; k++) {
