@@ -26,7 +26,6 @@ public class Bull { //The name is supposed to be "bool" (for boolean) but this i
                 {
                     all ++;
                 }
-
             }
         return all;
     }

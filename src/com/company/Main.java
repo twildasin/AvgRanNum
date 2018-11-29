@@ -43,9 +43,7 @@ public class Main {
 
                     reps++;
 
-
                 }
-
                 avg[i] = reps;
                 //System.out.println("Number of reps for \"" + time + "\" time: " + avg[i]);
 
@@ -56,19 +54,15 @@ public class Main {
                 }
                 //Resets the boolean variable for the while loop
                 con = true;
-
-
             }
 
             int totalAvg = 0;
-
 
             //Finds the average number of reps for the number of iterations
             for (int i = 0; i < avg.length; i++) {
                 totalAvg = totalAvg + avg[i];
             }
             totalAvg = totalAvg / avg.length;
-
 
 
             //Prints out the average reps for _____ iterations
